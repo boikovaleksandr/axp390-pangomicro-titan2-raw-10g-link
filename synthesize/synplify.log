@@ -1,0 +1,12 @@
+
+Inputs and Outputs :
++-----------------------------------------------------------------------+
+| Type       | File Name                                               
++-----------------------------------------------------------------------+
+| Input      | G:/Current_Pango/TenGigTest/source/Main.sv              
+| Output     | G:/Current_Pango/TenGigTest/synthesize/snr.db           
+|            | G:/Current_Pango/TenGigTest/synthesize/synplify.log     
++-----------------------------------------------------------------------+
+
+
+Flow Command: synthesize -top_module {Main} -include_path {G:/Current_Pango/TenGigTest} -selected_syn_tool_opt 1 

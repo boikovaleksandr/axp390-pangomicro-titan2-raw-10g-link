@@ -1,0 +1,995 @@
+
+sfp_1_tx_dis_obuf (GTP_OUTBUF)
+                 I
+
+fan_obuf (GTP_OUTBUF)
+        I
+
+u_gpll (GTP_GPLL)
+      APB_ADDR[0]
+      APB_ADDR[1]
+      APB_ADDR[2]
+      APB_ADDR[3]
+      APB_ADDR[4]
+      APB_CLK
+      APB_EN
+      APB_RST_N
+      APB_SEL
+      APB_WDATA[0]
+      APB_WDATA[1]
+      APB_WDATA[2]
+      APB_WDATA[3]
+      APB_WDATA[4]
+      APB_WDATA[5]
+      APB_WDATA[6]
+      APB_WDATA[7]
+      APB_WDATA[8]
+      APB_WDATA[9]
+      APB_WDATA[10]
+      APB_WDATA[11]
+      APB_WDATA[12]
+      APB_WDATA[13]
+      APB_WDATA[14]
+      APB_WDATA[15]
+      APB_WRITE
+      CLKFB
+      CLKIN2
+      CLKIN_SEL
+      CLKOUT0_SYN
+      CLKOUT1_SYN
+      CLKOUT2_SYN
+      CLKOUT3_SYN
+      CLKOUT4_SYN
+      CLKOUT5_SYN
+      CLKOUT6_SYN
+      CLKOUTF_SYN
+      DPS_CLK
+      DPS_DIR
+      DPS_EN
+      PLL_PWD
+      RST
+
+u_gpll (GTP_GPLL)
+      APB_ADDR[0]
+      APB_ADDR[1]
+      APB_ADDR[2]
+      APB_ADDR[3]
+      APB_ADDR[4]
+      APB_CLK
+      APB_EN
+      APB_RST_N
+      APB_SEL
+      APB_WDATA[0]
+      APB_WDATA[1]
+      APB_WDATA[2]
+      APB_WDATA[3]
+      APB_WDATA[4]
+      APB_WDATA[5]
+      APB_WDATA[6]
+      APB_WDATA[7]
+      APB_WDATA[8]
+      APB_WDATA[9]
+      APB_WDATA[10]
+      APB_WDATA[11]
+      APB_WDATA[12]
+      APB_WDATA[13]
+      APB_WDATA[14]
+      APB_WDATA[15]
+      APB_WRITE
+      CLKFB
+      CLKIN2
+      CLKIN_SEL
+      CLKOUT0_SYN
+      CLKOUT1_SYN
+      CLKOUT2_SYN
+      CLKOUT3_SYN
+      CLKOUT4_SYN
+      CLKOUT5_SYN
+      CLKOUT6_SYN
+      CLKOUTF_SYN
+      DPS_CLK
+      DPS_DIR
+      DPS_EN
+      PLL_PWD
+      RST
+
+rst_d0 (GTP_DFF_P)
+      D
+
+rst_d0 (GTP_DFF_P)
+      D
+
+rst_d0 (GTP_DFF_P)
+      D
+
+sync_header[1] (GTP_DFF_P)
+              D
+
+N84_10 (GTP_LUT6CARRY)
+      I5
+
+N84_8 (GTP_LUT6CARRY)
+     I5
+
+N84_7 (GTP_LUT6CARRY)
+     I5
+
+N84_9 (GTP_LUT6CARRY)
+     I5
+
+N84_5 (GTP_LUT6CARRY)
+     I5
+
+N2_9 (GTP_LUT6CARRY)
+    I5
+
+N2_7 (GTP_LUT6CARRY)
+    I5
+
+N84_3 (GTP_LUT6CARRY)
+     I5
+
+N84_4 (GTP_LUT6CARRY)
+     I5
+
+N2_10 (GTP_LUT6CARRY)
+     I5
+
+N2_2 (GTP_LUT6CARRY)
+    I5
+
+N2_6 (GTP_LUT6CARRY)
+    I5
+
+N2_5 (GTP_LUT6CARRY)
+    I5
+
+N84_6 (GTP_LUT6CARRY)
+     I5
+
+N2_4 (GTP_LUT6CARRY)
+    I5
+
+N84_2 (GTP_LUT6CARRY)
+     I5
+
+N2_3 (GTP_LUT6CARRY)
+    I5
+
+N2_8 (GTP_LUT6CARRY)
+    I5
+
+N324_5.fsub_10 (GTP_LUT6CARRY)
+              I5
+
+N292_5.fsub_10 (GTP_LUT6CARRY)
+              I5
+
+ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1 (GTP_DRM36K_E1)
+                                         ADDRA[0]
+                                         ADDRA[1]
+                                         ADDRA[2]
+                                         ADDRA[3]
+                                         ADDRA[4]
+                                         ADDRA[5]
+                                         ADDRA_HOLD
+                                         ADDRB[0]
+                                         ADDRB[1]
+                                         ADDRB[2]
+                                         ADDRB[3]
+                                         ADDRB[4]
+                                         ADDRB[5]
+                                         ADDRB_HOLD
+                                         BWEB[0]
+                                         BWEB[1]
+                                         BWEB[2]
+                                         BWEB[3]
+                                         CSA[0]
+                                         CSA[1]
+                                         CSA[2]
+                                         CSB[0]
+                                         CSB[1]
+                                         CSB[2]
+                                         DIB[30]
+                                         DIB[31]
+                                         DIB[32]
+                                         DIB[33]
+                                         DIB[34]
+                                         DIB[35]
+                                         INJECT_DBITERR
+                                         INJECT_SBITERR
+                                         ORCEA
+                                         ORCEB
+                                         WEB
+
+N1073_2 (GTP_LUT6CARRY)
+       I5
+
+N1073_12 (GTP_LUT6CARRY)
+        I5
+
+N1073_11 (GTP_LUT6CARRY)
+        I5
+
+N1073_8 (GTP_LUT6CARRY)
+       I5
+
+N1073_9 (GTP_LUT6CARRY)
+       I5
+
+N1073_10 (GTP_LUT6CARRY)
+        I5
+
+N1073_16 (GTP_LUT6CARRY)
+        I5
+
+N1073_7 (GTP_LUT6CARRY)
+       I5
+
+N1073_6 (GTP_LUT6CARRY)
+       I5
+
+N1073_15 (GTP_LUT6CARRY)
+        I5
+
+N1073_14 (GTP_LUT6CARRY)
+        I5
+
+N1073_13 (GTP_LUT6CARRY)
+        I5
+
+N1073_5 (GTP_LUT6CARRY)
+       I5
+
+N1073_3 (GTP_LUT6CARRY)
+       I5
+
+N1073_4 (GTP_LUT6CARRY)
+       I5
+
+N84_10 (GTP_LUT6CARRY)
+      I5
+
+N84_9 (GTP_LUT6CARRY)
+     I5
+
+N84_8 (GTP_LUT6CARRY)
+     I5
+
+N84_7 (GTP_LUT6CARRY)
+     I5
+
+N324_5.fsub_10 (GTP_LUT6CARRY)
+              I5
+
+N292_5.fsub_10 (GTP_LUT6CARRY)
+              I5
+
+N2_8 (GTP_LUT6CARRY)
+    I5
+
+N84_5 (GTP_LUT6CARRY)
+     I5
+
+N84_2 (GTP_LUT6CARRY)
+     I5
+
+N84_6 (GTP_LUT6CARRY)
+     I5
+
+N2_4 (GTP_LUT6CARRY)
+    I5
+
+N2_2 (GTP_LUT6CARRY)
+    I5
+
+N84_3 (GTP_LUT6CARRY)
+     I5
+
+N84_4 (GTP_LUT6CARRY)
+     I5
+
+N2_5 (GTP_LUT6CARRY)
+    I5
+
+N2_10 (GTP_LUT6CARRY)
+     I5
+
+N2_6 (GTP_LUT6CARRY)
+    I5
+
+N2_7 (GTP_LUT6CARRY)
+    I5
+
+N2_9 (GTP_LUT6CARRY)
+    I5
+
+N2_3 (GTP_LUT6CARRY)
+    I5
+
+ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1 (GTP_DRM36K_E1)
+                                         ADDRA[0]
+                                         ADDRA[1]
+                                         ADDRA[2]
+                                         ADDRA[3]
+                                         ADDRA[4]
+                                         ADDRA[5]
+                                         ADDRA_HOLD
+                                         ADDRB[0]
+                                         ADDRB[1]
+                                         ADDRB[2]
+                                         ADDRB[3]
+                                         ADDRB[4]
+                                         ADDRB[5]
+                                         ADDRB_HOLD
+                                         BWEB[0]
+                                         BWEB[1]
+                                         BWEB[2]
+                                         BWEB[3]
+                                         CSA[0]
+                                         CSA[1]
+                                         CSA[2]
+                                         CSB[0]
+                                         CSB[1]
+                                         CSB[2]
+                                         INJECT_DBITERR
+                                         INJECT_SBITERR
+                                         ORCEA
+                                         ORCEB
+                                         WEB
+
+U_LANE0 (GTP_HSSTHP_LANE)
+       LANE_CIN_BUS_BACKWARD[0]
+       LANE_CIN_BUS_BACKWARD[1]
+       LANE_CIN_BUS_FORWARD[0]
+       LANE_CIN_BUS_FORWARD[1]
+       LANE_CIN_BUS_FORWARD[2]
+       LANE_CIN_BUS_FORWARD[3]
+       LANE_CIN_BUS_FORWARD[4]
+       LANE_CIN_BUS_FORWARD[5]
+       LANE_CIN_BUS_FORWARD[6]
+       LANE_CIN_BUS_FORWARD[7]
+       LANE_CIN_BUS_FORWARD[8]
+       LANE_CIN_BUS_FORWARD[9]
+       LANE_CIN_BUS_FORWARD[10]
+       LANE_CIN_BUS_FORWARD[11]
+       LANE_CIN_BUS_FORWARD[12]
+       LANE_CIN_BUS_FORWARD[13]
+       LANE_CIN_BUS_FORWARD[14]
+       LANE_CIN_BUS_FORWARD[15]
+       LANE_CIN_BUS_FORWARD[16]
+       LANE_CIN_BUS_FORWARD[17]
+       LANE_CIN_BUS_FORWARD[18]
+       LANE_CIN_BUS_FORWARD[19]
+       LANE_CIN_BUS_FORWARD[20]
+       LANE_CIN_BUS_FORWARD[21]
+       LANE_CIN_BUS_FORWARD[22]
+       LANE_CIN_BUS_FORWARD[23]
+       LANE_CIN_BUS_FORWARD[24]
+       P_ALIGN_MODE_RX[0]
+       P_ALIGN_MODE_RX[1]
+       P_ALIGN_MODE_TX[0]
+       P_ALIGN_MODE_TX[1]
+       P_ALIGN_MODE_TX[2]
+       P_ALIGN_MODE_VALID_RX
+       P_ALIGN_MODE_VALID_TX
+       P_CIM_CLK_ALIGNER_RX[0]
+       P_CIM_CLK_ALIGNER_RX[1]
+       P_CIM_CLK_ALIGNER_RX[2]
+       P_CIM_CLK_ALIGNER_RX[3]
+       P_CIM_CLK_ALIGNER_RX[4]
+       P_CIM_CLK_ALIGNER_RX[5]
+       P_CIM_CLK_ALIGNER_RX[6]
+       P_CIM_CLK_ALIGNER_RX[7]
+       P_CIM_CLK_ALIGNER_TX[0]
+       P_CIM_CLK_ALIGNER_TX[1]
+       P_CIM_CLK_ALIGNER_TX[2]
+       P_CIM_CLK_ALIGNER_TX[3]
+       P_CIM_CLK_ALIGNER_TX[4]
+       P_CIM_CLK_ALIGNER_TX[5]
+       P_CIM_CLK_ALIGNER_TX[6]
+       P_CIM_CLK_ALIGNER_TX[7]
+       P_EM_MODE_CTRL[0]
+       P_EM_MODE_CTRL[1]
+       P_EM_RD_TRIGGER
+       P_EXT_BRIDGE_PCS_RST
+       P_LANE_POWERDOWN
+       P_LANE_RST
+       P_LPLL_LOCKDET_RST
+       P_PCIE_EI_H
+       P_PCIE_EI_L
+       P_PCS_FAREND_LOOP
+       P_PCS_MCB_EXT_EN
+       P_PCS_NEAREND_LOOP
+       P_PCS_PRBS_EN
+       P_PCS_WORD_ALIGN_EN
+       P_PMA_FAREND_PLOOP
+       P_PMA_NEAREND_SLOOP
+       P_RCLK2_FR_CORE
+       P_RX_BUSWIDTH[0]
+       P_RX_BUSWIDTH[1]
+       P_RX_BUSWIDTH[2]
+       P_RX_CDR_RST
+       P_RX_CLKPATH_RST
+       P_RX_DEC_TYPE
+       P_RX_DFE_EN
+       P_RX_EYE_EN
+       P_RX_EYE_RST
+       P_RX_EYE_TAP[0]
+       P_RX_EYE_TAP[1]
+       P_RX_EYE_TAP[2]
+       P_RX_EYE_TAP[3]
+       P_RX_EYE_TAP[4]
+       P_RX_EYE_TAP[5]
+       P_RX_EYE_TAP[6]
+       P_RX_EYE_TAP[7]
+       P_RX_HIGHZ
+       P_RX_LEQ_RST
+       P_RX_PIC_EYE[0]
+       P_RX_PIC_EYE[1]
+       P_RX_PIC_EYE[2]
+       P_RX_PIC_EYE[3]
+       P_RX_PIC_EYE[4]
+       P_RX_PIC_EYE[5]
+       P_RX_PIC_EYE[6]
+       P_RX_PIC_EYE[7]
+       P_RX_PIC_FASTLOCK[0]
+       P_RX_PIC_FASTLOCK[1]
+       P_RX_PIC_FASTLOCK[2]
+       P_RX_PIC_FASTLOCK[3]
+       P_RX_PIC_FASTLOCK[4]
+       P_RX_PIC_FASTLOCK[5]
+       P_RX_PIC_FASTLOCK[6]
+       P_RX_PIC_FASTLOCK[7]
+       P_RX_PIC_FASTLOCK_STROBE
+       P_RX_POLARITY_INVERT
+       P_RX_SLICER_DCCAL_RST
+       P_RX_SLIDING_EN
+       P_RX_SLIDING_RST
+       P_RX_SLIP_RST
+       P_RX_T1_DFE_EN
+       P_RX_T2_DFE_EN
+       P_RX_T3_DFE_EN
+       P_RX_T4_DFE_EN
+       P_RX_T5_DFE_EN
+       P_RX_T6_DFE_EN
+       P_TCLK2_FR_CORE
+       P_TDATA[31]
+       P_TDATA[32]
+       P_TDATA[43]
+       P_TDATA[52]
+       P_TDATA[53]
+       P_TDATA[54]
+       P_TDATA[63]
+       P_TDATA[64]
+       P_TDATA[65]
+       P_TDATA[74]
+       P_TDATA[75]
+       P_TDATA[76]
+       P_TDATA[85]
+       P_TDATA[86]
+       P_TDATA[87]
+       P_TX_BEACON_EN
+       P_TX_BUSWIDTH[0]
+       P_TX_BUSWIDTH[1]
+       P_TX_BUSWIDTH[2]
+       P_TX_DEEMP[0]
+       P_TX_DEEMP[1]
+       P_TX_DEEMP[2]
+       P_TX_DEEMP[3]
+       P_TX_DEEMP[4]
+       P_TX_DEEMP[5]
+       P_TX_DEEMP[6]
+       P_TX_DEEMP[7]
+       P_TX_DEEMP[8]
+       P_TX_DEEMP[9]
+       P_TX_DEEMP[10]
+       P_TX_DEEMP[11]
+       P_TX_DEEMP[12]
+       P_TX_DEEMP[13]
+       P_TX_DEEMP[14]
+       P_TX_DEEMP[15]
+       P_TX_DEEMP_POST_SEL[0]
+       P_TX_DEEMP_POST_SEL[1]
+       P_TX_ENC_TYPE
+       P_TX_FREERUN_BUSWIDTH[2]
+       P_TX_LS_DATA
+       P_TX_MARGIN[0]
+       P_TX_MARGIN[1]
+       P_TX_MARGIN[2]
+       P_TX_PIC_EN
+       P_TX_RXDET_REQ
+       P_TX_SWING
+       P_TX_SYNC
+
+N127_1_9 (GTP_LUT6CARRY)
+        I5
+
+N115_1_5 (GTP_LUT6CARRY)
+        I5
+
+N127_1_7 (GTP_LUT6CARRY)
+        I5
+
+N115_1_7 (GTP_LUT6CARRY)
+        I5
+
+N127_1_5 (GTP_LUT6CARRY)
+        I5
+
+N127_1_4 (GTP_LUT6CARRY)
+        I5
+
+N127_1_2 (GTP_LUT6CARRY)
+        I5
+
+N115_1_9 (GTP_LUT6CARRY)
+        I5
+
+N115_1_6 (GTP_LUT6CARRY)
+        I5
+
+N115_1_8 (GTP_LUT6CARRY)
+        I5
+
+N127_1_8 (GTP_LUT6CARRY)
+        I5
+
+U_HPLL (GTP_HSSTHP_HPLL)
+      ANA_HPLL_DIV_SYNC_I
+      ANA_HPLL_REFCLK_SYNC_I
+      ANA_TX_SYNC_I
+      P_HPLL_DIV_CHANGE
+      P_HPLL_DIV_SYNC
+      P_HPLL_LOCKDET_RST
+      P_REFCLK_DIV_SYNC
+      P_RESCAL_I_CODE_I[0]
+      P_RESCAL_I_CODE_I[4]
+      P_TX_SYNC
+      REFCLK_TO_DIV_SYNC_I
+      REFCLK_TO_REFCLK_SYNC_I
+      REFCLK_TO_TX_SYNC_I
+
+N115_1_3 (GTP_LUT6CARRY)
+        I5
+
+N115_1_2 (GTP_LUT6CARRY)
+        I5
+
+N127_1_3 (GTP_LUT6CARRY)
+        I5
+
+N115_1_4 (GTP_LUT6CARRY)
+        I5
+
+N127_1_6 (GTP_LUT6CARRY)
+        I5
+
+U_BUFDS (GTP_HSSTHP_BUFDS)
+       COM_POWERDOWN
+
+N173_1_26 (GTP_LUT6CARRY)
+         I5
+
+N173_1_11 (GTP_LUT6CARRY)
+         I5
+
+N173_1_6 (GTP_LUT6CARRY)
+        I5
+
+N173_1_2 (GTP_LUT6CARRY)
+        I5
+
+N173_1_12 (GTP_LUT6CARRY)
+         I5
+
+N173_1_16 (GTP_LUT6CARRY)
+         I5
+
+N173_1_23 (GTP_LUT6CARRY)
+         I5
+
+N173_1_15 (GTP_LUT6CARRY)
+         I5
+
+N173_1_8 (GTP_LUT6CARRY)
+        I5
+
+N173_1_7 (GTP_LUT6CARRY)
+        I5
+
+N173_1_18 (GTP_LUT6CARRY)
+         I5
+
+N173_1_19 (GTP_LUT6CARRY)
+         I5
+
+N173_1_3 (GTP_LUT6CARRY)
+        I5
+
+N173_1_13 (GTP_LUT6CARRY)
+         I5
+
+N173_1_21 (GTP_LUT6CARRY)
+         I5
+
+N173_1_9 (GTP_LUT6CARRY)
+        I5
+
+rxlane_rst_fsm_reg[0] (GTP_DFF_P)
+                     D
+
+N173_1_14 (GTP_LUT6CARRY)
+         I5
+
+N173_1_25 (GTP_LUT6CARRY)
+         I5
+
+N173_1_17 (GTP_LUT6CARRY)
+         I5
+
+N173_1_24 (GTP_LUT6CARRY)
+         I5
+
+N173_1_27 (GTP_LUT6CARRY)
+         I5
+
+N173_1_10 (GTP_LUT6CARRY)
+         I5
+
+N173_1_20 (GTP_LUT6CARRY)
+         I5
+
+N173_1_22 (GTP_LUT6CARRY)
+         I5
+
+N173_1_4 (GTP_LUT6CARRY)
+        I5
+
+N173_1_5 (GTP_LUT6CARRY)
+        I5
+
+N13_1_4 (GTP_LUT6CARRY)
+       I5
+
+N13_1_2 (GTP_LUT6CARRY)
+       I5
+
+N13_1_7 (GTP_LUT6CARRY)
+       I5
+
+N13_1_3 (GTP_LUT6CARRY)
+       I5
+
+N13_1_6 (GTP_LUT6CARRY)
+       I5
+
+N13_1_5 (GTP_LUT6CARRY)
+       I5
+
+N13_1_9 (GTP_LUT6CARRY)
+       I5
+
+N13_1_11 (GTP_LUT6CARRY)
+        I5
+
+N13_1_8 (GTP_LUT6CARRY)
+       I5
+
+N13_1_10 (GTP_LUT6CARRY)
+        I5
+
+N13_1_2 (GTP_LUT6CARRY)
+       I5
+
+N13_1_6 (GTP_LUT6CARRY)
+       I5
+
+N13_1_10 (GTP_LUT6CARRY)
+        I5
+
+N13_1_5 (GTP_LUT6CARRY)
+       I5
+
+N13_1_11 (GTP_LUT6CARRY)
+        I5
+
+N13_1_7 (GTP_LUT6CARRY)
+       I5
+
+N13_1_3 (GTP_LUT6CARRY)
+       I5
+
+N13_1_4 (GTP_LUT6CARRY)
+       I5
+
+N13_1_9 (GTP_LUT6CARRY)
+       I5
+
+N13_1_8 (GTP_LUT6CARRY)
+       I5
+
+N105_1_2 (GTP_LUT6CARRY)
+        I5
+
+N105_1_13 (GTP_LUT6CARRY)
+         I5
+
+N105_1_7 (GTP_LUT6CARRY)
+        I5
+
+N105_1_8 (GTP_LUT6CARRY)
+        I5
+
+N105_1_5 (GTP_LUT6CARRY)
+        I5
+
+N105_1_3 (GTP_LUT6CARRY)
+        I5
+
+N105_1_11 (GTP_LUT6CARRY)
+         I5
+
+N105_1_4 (GTP_LUT6CARRY)
+        I5
+
+N105_1_12 (GTP_LUT6CARRY)
+         I5
+
+N105_1_15 (GTP_LUT6CARRY)
+         I5
+
+N105_1_14 (GTP_LUT6CARRY)
+         I5
+
+N105_1_9 (GTP_LUT6CARRY)
+        I5
+
+N105_1_16 (GTP_LUT6CARRY)
+         I5
+
+N105_1_17 (GTP_LUT6CARRY)
+         I5
+
+N105_1_10 (GTP_LUT6CARRY)
+         I5
+
+N105_1_6 (GTP_LUT6CARRY)
+        I5
+
+N78_1_8 (GTP_LUT6CARRY)
+       I5
+
+N78_1_10 (GTP_LUT6CARRY)
+        I5
+
+N78_1_2 (GTP_LUT6CARRY)
+       I5
+
+N78_1_5 (GTP_LUT6CARRY)
+       I5
+
+N78_1_3 (GTP_LUT6CARRY)
+       I5
+
+N78_1_6 (GTP_LUT6CARRY)
+       I5
+
+N78_1_4 (GTP_LUT6CARRY)
+       I5
+
+N78_1_9 (GTP_LUT6CARRY)
+       I5
+
+N78_1_7 (GTP_LUT6CARRY)
+       I5
+
+N78_1_11 (GTP_LUT6CARRY)
+        I5
+
+N6_1_6 (GTP_LUT6CARRY)
+      I5
+
+N6_1_8 (GTP_LUT6CARRY)
+      I5
+
+N6_1_9 (GTP_LUT6CARRY)
+      I5
+
+N6_1_2 (GTP_LUT6CARRY)
+      I5
+
+N6_1_3 (GTP_LUT6CARRY)
+      I5
+
+N6_1_5 (GTP_LUT6CARRY)
+      I5
+
+N6_1_4 (GTP_LUT6CARRY)
+      I5
+
+N6_1_7 (GTP_LUT6CARRY)
+      I5
+
+N16_1_2 (GTP_LUT6CARRY)
+       I5
+
+N16_1_3 (GTP_LUT6CARRY)
+       I5
+
+N16_1_5 (GTP_LUT6CARRY)
+       I5
+
+N16_1_4 (GTP_LUT6CARRY)
+       I5
+
+N16_1_8 (GTP_LUT6CARRY)
+       I5
+
+N16_1_9 (GTP_LUT6CARRY)
+       I5
+
+N16_1_6 (GTP_LUT6CARRY)
+       I5
+
+N16_1_7 (GTP_LUT6CARRY)
+       I5
+
+N11_1_3 (GTP_LUT6CARRY)
+       I5
+
+N11_1_5 (GTP_LUT6CARRY)
+       I5
+
+N11_1_10 (GTP_LUT6CARRY)
+        I5
+
+N11_1_2 (GTP_LUT6CARRY)
+       I5
+
+N11_1_4 (GTP_LUT6CARRY)
+       I5
+
+N11_1_8 (GTP_LUT6CARRY)
+       I5
+
+N11_1_9 (GTP_LUT6CARRY)
+       I5
+
+N11_1_6 (GTP_LUT6CARRY)
+       I5
+
+N11_1_11 (GTP_LUT6CARRY)
+        I5
+
+N11_1_7 (GTP_LUT6CARRY)
+       I5
+
+N104_1_14 (GTP_LUT6CARRY)
+         I5
+
+N104_1_2 (GTP_LUT6CARRY)
+        I5
+
+N104_1_3 (GTP_LUT6CARRY)
+        I5
+
+N104_1_1 (GTP_LUT6CARRY)
+        I5
+
+N104_1_15 (GTP_LUT6CARRY)
+         I5
+
+N104_1_7 (GTP_LUT6CARRY)
+        I5
+
+N104_1_6 (GTP_LUT6CARRY)
+        I5
+
+N104_1_5 (GTP_LUT6CARRY)
+        I5
+
+N104_1_4 (GTP_LUT6CARRY)
+        I5
+
+N104_1_13 (GTP_LUT6CARRY)
+         I5
+
+N104_1_8 (GTP_LUT6CARRY)
+        I5
+
+N104_1_9 (GTP_LUT6CARRY)
+        I5
+
+N104_1_10 (GTP_LUT6CARRY)
+         I5
+
+N104_1_11 (GTP_LUT6CARRY)
+         I5
+
+N104_1_12 (GTP_LUT6CARRY)
+         I5
+
+N163_1_3 (GTP_LUT6CARRY)
+        I5
+
+N163_1_12 (GTP_LUT6CARRY)
+         I5
+
+N163_1_6 (GTP_LUT6CARRY)
+        I5
+
+N163_1_11 (GTP_LUT6CARRY)
+         I5
+
+N163_1_14 (GTP_LUT6CARRY)
+         I5
+
+N163_1_10 (GTP_LUT6CARRY)
+         I5
+
+N163_1_4 (GTP_LUT6CARRY)
+        I5
+
+N163_1_8 (GTP_LUT6CARRY)
+        I5
+
+N163_1_9 (GTP_LUT6CARRY)
+        I5
+
+N163_1_15 (GTP_LUT6CARRY)
+         I5
+
+N163_1_7 (GTP_LUT6CARRY)
+        I5
+
+N163_1_2 (GTP_LUT6CARRY)
+        I5
+
+N163_1_13 (GTP_LUT6CARRY)
+         I5
+
+N163_1_5 (GTP_LUT6CARRY)
+        I5
+
+N4_1_3 (GTP_LUT6CARRY)
+      I5
+
+N4_1_10 (GTP_LUT6CARRY)
+       I5
+
+N4_1_9 (GTP_LUT6CARRY)
+      I5
+
+N4_1_8 (GTP_LUT6CARRY)
+      I5
+
+N4_1_4 (GTP_LUT6CARRY)
+      I5
+
+N4_1_7 (GTP_LUT6CARRY)
+      I5
+
+N4_1_12 (GTP_LUT6CARRY)
+       I5
+
+N4_1_11 (GTP_LUT6CARRY)
+       I5
+
+N4_1_15 (GTP_LUT6CARRY)
+       I5
+
+N4_1_2 (GTP_LUT6CARRY)
+      I5
+
+N4_1_5 (GTP_LUT6CARRY)
+      I5
+
+N4_1_14 (GTP_LUT6CARRY)
+       I5
+
+N4_1_6 (GTP_LUT6CARRY)
+      I5
+
+N4_1_13 (GTP_LUT6CARRY)
+       I5

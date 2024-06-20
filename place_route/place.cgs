@@ -1,0 +1,12 @@
+[
+    {
+        "phase": "place",
+        "table_title": "Place",
+        "title": ["Window", "Direction", "Type", "Level"],
+        "name": ["Window", "Direction", "Type", "Level"],
+        "version": 1,
+        "top_module_name": "Main",
+        "arch": {"family": "Titan2", "device": "PG2T390H", "package": "FFBG900", "speedgrade": "-6"},
+        "svn_version": "147282"
+    }
+]

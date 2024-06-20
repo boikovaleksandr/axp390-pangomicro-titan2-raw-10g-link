@@ -1,0 +1,191 @@
+[Info] [2024-6-10 10:32:40] /***************************Start Configuration***************************/
+[Info] [2024-6-10 10:32:40] Path: D:/Pango/PDS_2023.2-SP1/bin
+[Info] [2024-6-10 10:32:40] Version: 147282
+[Info] [2024-6-10 10:32:42] Current Path: G:/Current_Pango/TenGigTest
+[Info] [2024-6-10 10:32:42] PDS Dir Path: G:/Current_Pango/TenGigTest
+[Info] [2024-6-10 10:32:43] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-6-10 10:32:43] Client Local host name:WORK_BOIKOV
+[Debug] [2024-6-10 10:32:43] Client Local Address:159.93.74.121
+[Debug] [2024-6-10 10:32:43] Server Address:127.0.0.1, Port:65420
+[Debug] [2024-6-10 10:32:43] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2024-6-10 10:32:44] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-6-10 10:32:44] Finish.
+[Info] [2024-6-10 10:32:44] Connect server succeeded
+[Debug] [2024-6-10 10:32:44] Send RPC:1
+[Debug] [2024-6-10 10:32:44] Send cmd [check version information:40004] OK
+[Debug] [2024-6-10 10:32:44] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2024-6-10 10:32:44] Send RPC:2
+[Debug] [2024-6-10 10:32:44] Send cmd [get_cable_paras:40010] OK
+[Debug] [2024-6-10 10:32:44] Begin to send initialize chain cmd...
+[Debug] [2024-6-10 10:32:44] Send RPC:3
+[Debug] [2024-6-10 10:32:44] Send cmd [Open config cable:20001] OK
+[Debug] [2024-6-10 10:32:44] End to send initialize chain cmd.
+[Debug] [2024-6-10 10:32:44] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-6-10 10:32:44] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-6-10 10:32:45] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-6-10 10:32:45] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2024-6-10 10:32:45] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-6-10 10:32:45] begin the exec of open cable cmd...
+[Debug] [2024-6-10 10:32:45] Begin to deal with chain from server...
+[Debug] [2024-6-10 10:32:45] Begin to set user chain...
+[Debug] [2024-6-10 10:32:45] End to set user chain.
+[Debug] [2024-6-10 10:32:45] Begin to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:45] End to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:45] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2024-6-10 10:32:45] Log::Print : PG2T390H
+[Debug] [2024-6-10 10:32:45] Log::Print : This device configure situation (done bit): 1
+[Info] [2024-6-10 10:32:47] set OpenLastPath: G:/Current_Pango/TenGigTest/generate_bitstream/Main.sbit
+[Debug] [2024-6-10 10:32:47] begin to get device info from CFG file...
+[Debug] [2024-6-10 10:32:47] end to get device info from CFG file...
+[Debug] [2024-6-10 10:32:47] Begin to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:47] End to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:47] Begin to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:47] End to update graphic item and tree item ...
+[Debug] [2024-6-10 10:32:47] End to deal wiht chain from server.
+[Debug] [2024-6-10 10:32:47] end the exec of open cable cmd.
+[Debug] [2024-6-10 10:32:47] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2024-6-10 10:32:47] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2024-6-10 10:32:50] Begin to send programming cmd...
+[Debug] [2024-6-10 10:32:50] Send RPC:4
+[Debug] [2024-6-10 10:32:50] Begin to send program data.
+[Debug] [2024-6-10 10:32:50] End to send program data.
+[Debug] [2024-6-10 10:32:50] Send cmd [Program:20002] OK
+[Debug] [2024-6-10 10:32:51] The value of Progress is 6
+[Debug] [2024-6-10 10:32:51] The value of Progress is 10
+[Debug] [2024-6-10 10:32:52] The value of Progress is 15
+[Debug] [2024-6-10 10:32:52] The value of Progress is 20
+[Debug] [2024-6-10 10:32:53] The value of Progress is 25
+[Debug] [2024-6-10 10:32:53] The value of Progress is 30
+[Debug] [2024-6-10 10:32:54] The value of Progress is 35
+[Debug] [2024-6-10 10:32:54] The value of Progress is 40
+[Debug] [2024-6-10 10:32:55] The value of Progress is 45
+[Debug] [2024-6-10 10:32:55] The value of Progress is 50
+[Debug] [2024-6-10 10:32:56] The value of Progress is 55
+[Debug] [2024-6-10 10:32:56] The value of Progress is 60
+[Debug] [2024-6-10 10:32:57] The value of Progress is 65
+[Debug] [2024-6-10 10:32:57] The value of Progress is 70
+[Debug] [2024-6-10 10:32:58] The value of Progress is 75
+[Debug] [2024-6-10 10:32:58] The value of Progress is 80
+[Debug] [2024-6-10 10:32:59] The value of Progress is 85
+[Debug] [2024-6-10 10:33:00] The value of Progress is 90
+[Debug] [2024-6-10 10:33:00] The value of Progress is 95
+[Debug] [2024-6-10 10:33:01] The value of Progress is 100
+[Debug] [2024-6-10 10:33:02] COMMAND[Program] execute successfully, takes 12.4 secs.
+[Debug] [2024-6-10 10:33:02] End to send programming cmd.
+[Debug] [2024-6-10 10:33:02] Log::Print : [2024.06.10 10:33:01]Finish program G:/Current_Pango/TenGigTest/generate_bitstream/Main.sbit
+[Debug] [2024-6-10 10:33:02] Log::Print : The done bit is 1
+[Debug] [2024-6-10 10:33:02] Log::Print : COMMAND[Program] execute successfully, takes 12.4 secs.
+[Debug] [2024-6-10 11:39:43] Begin to send programming cmd...
+[Debug] [2024-6-10 11:39:43] Send RPC:5
+[Debug] [2024-6-10 11:39:43] Begin to send program data.
+[Debug] [2024-6-10 11:39:43] End to send program data.
+[Debug] [2024-6-10 11:39:43] Send cmd [Program:20002] OK
+[Debug] [2024-6-10 11:39:43] The value of Progress is 6
+[Debug] [2024-6-10 11:39:44] The value of Progress is 10
+[Debug] [2024-6-10 11:39:44] The value of Progress is 15
+[Debug] [2024-6-10 11:39:45] The value of Progress is 20
+[Debug] [2024-6-10 11:39:45] The value of Progress is 25
+[Debug] [2024-6-10 11:39:46] The value of Progress is 30
+[Debug] [2024-6-10 11:39:47] The value of Progress is 35
+[Debug] [2024-6-10 11:39:47] The value of Progress is 40
+[Debug] [2024-6-10 11:39:48] The value of Progress is 45
+[Debug] [2024-6-10 11:39:48] The value of Progress is 50
+[Debug] [2024-6-10 11:39:49] The value of Progress is 55
+[Debug] [2024-6-10 11:39:49] The value of Progress is 60
+[Debug] [2024-6-10 11:39:50] The value of Progress is 65
+[Debug] [2024-6-10 11:39:50] The value of Progress is 70
+[Debug] [2024-6-10 11:39:51] The value of Progress is 75
+[Debug] [2024-6-10 11:39:51] The value of Progress is 80
+[Debug] [2024-6-10 11:39:52] The value of Progress is 85
+[Debug] [2024-6-10 11:39:52] The value of Progress is 90
+[Debug] [2024-6-10 11:39:53] The value of Progress is 95
+[Debug] [2024-6-10 11:39:54] The value of Progress is 100
+[Debug] [2024-6-10 11:39:54] COMMAND[Program] execute successfully, takes 11.3 secs.
+[Debug] [2024-6-10 11:39:54] End to send programming cmd.
+[Debug] [2024-6-10 11:39:54] Log::Print : [2024.06.10 11:39:54]Finish program G:/Current_Pango/TenGigTest/generate_bitstream/Main.sbit
+[Debug] [2024-6-10 11:39:54] Log::Print : The done bit is 1
+[Debug] [2024-6-10 11:39:54] Log::Print : COMMAND[Program] execute successfully, takes 11.3 secs.
+[Info] [2024-6-10 11:55:26] /***************************End Configration***************************/
+[Info] [2024-6-14 17:45:38] /***************************Start Configuration***************************/
+[Info] [2024-6-14 17:45:38] Path: D:/Pango/PDS_2023.2-SP1/bin
+[Info] [2024-6-14 17:45:38] Version: 147282
+[Info] [2024-6-14 17:45:39] Current Path: G:/Current_Pango/TenGigTest
+[Info] [2024-6-14 17:45:39] PDS Dir Path: G:/Current_Pango/TenGigTest
+[Info] [2024-6-14 17:45:41] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-6-14 17:45:41] Client Local host name:WORK_BOIKOV
+[Debug] [2024-6-14 17:45:41] Client Local Address:159.93.74.121
+[Debug] [2024-6-14 17:45:41] Client Local Address:172.21.160.1
+[Debug] [2024-6-14 17:45:41] Server Address:127.0.0.1, Port:65420
+[Debug] [2024-6-14 17:45:41] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2024-6-14 17:45:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-6-14 17:45:41] Finish.
+[Info] [2024-6-14 17:45:41] Connect server succeeded
+[Debug] [2024-6-14 17:45:41] Send RPC:1
+[Debug] [2024-6-14 17:45:41] Send cmd [check version information:40004] OK
+[Debug] [2024-6-14 17:45:41] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2024-6-14 17:45:41] Send RPC:2
+[Debug] [2024-6-14 17:45:41] Send cmd [get_cable_paras:40010] OK
+[Debug] [2024-6-14 17:45:41] Begin to send initialize chain cmd...
+[Debug] [2024-6-14 17:45:41] Send RPC:3
+[Debug] [2024-6-14 17:45:41] Send cmd [Open config cable:20001] OK
+[Debug] [2024-6-14 17:45:41] End to send initialize chain cmd.
+[Debug] [2024-6-14 17:45:41] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-6-14 17:45:41] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-6-14 17:45:42] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-6-14 17:45:42] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2024-6-14 17:45:42] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-6-14 17:45:43] begin the exec of open cable cmd...
+[Debug] [2024-6-14 17:45:43] Begin to deal with chain from server...
+[Debug] [2024-6-14 17:45:43] Begin to set user chain...
+[Debug] [2024-6-14 17:45:43] End to set user chain.
+[Debug] [2024-6-14 17:45:43] Begin to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:43] End to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:43] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2024-6-14 17:45:43] Log::Print : PG2T390H
+[Debug] [2024-6-14 17:45:43] Log::Print : This device configure situation (done bit): 1
+[Info] [2024-6-14 17:45:44] set OpenLastPath: G:/Current_Pango/TenGigTest/generate_bitstream/Main.sbit
+[Debug] [2024-6-14 17:45:44] begin to get device info from CFG file...
+[Debug] [2024-6-14 17:45:44] end to get device info from CFG file...
+[Debug] [2024-6-14 17:45:44] Begin to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:44] End to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:44] Begin to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:44] End to update graphic item and tree item ...
+[Debug] [2024-6-14 17:45:44] End to deal wiht chain from server.
+[Debug] [2024-6-14 17:45:44] end the exec of open cable cmd.
+[Debug] [2024-6-14 17:45:44] COMMAND[Open config cable] execute successfully, takes 2.5 secs.
+[Debug] [2024-6-14 17:45:44] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.5 secs.
+[Debug] [2024-6-14 17:45:47] Begin to send programming cmd...
+[Debug] [2024-6-14 17:45:47] Send RPC:4
+[Debug] [2024-6-14 17:45:47] Begin to send program data.
+[Debug] [2024-6-14 17:45:47] End to send program data.
+[Debug] [2024-6-14 17:45:47] Send cmd [Program:20002] OK
+[Debug] [2024-6-14 17:45:48] The value of Progress is 6
+[Debug] [2024-6-14 17:45:48] The value of Progress is 10
+[Debug] [2024-6-14 17:45:49] The value of Progress is 15
+[Debug] [2024-6-14 17:45:49] The value of Progress is 20
+[Debug] [2024-6-14 17:45:50] The value of Progress is 25
+[Debug] [2024-6-14 17:45:50] The value of Progress is 30
+[Debug] [2024-6-14 17:45:51] The value of Progress is 35
+[Debug] [2024-6-14 17:45:51] The value of Progress is 40
+[Debug] [2024-6-14 17:45:52] The value of Progress is 45
+[Debug] [2024-6-14 17:45:52] The value of Progress is 50
+[Debug] [2024-6-14 17:45:53] The value of Progress is 55
+[Debug] [2024-6-14 17:45:54] The value of Progress is 60
+[Debug] [2024-6-14 17:45:54] The value of Progress is 65
+[Debug] [2024-6-14 17:45:55] The value of Progress is 70
+[Debug] [2024-6-14 17:45:55] The value of Progress is 75
+[Debug] [2024-6-14 17:45:56] The value of Progress is 80
+[Debug] [2024-6-14 17:45:56] The value of Progress is 85
+[Debug] [2024-6-14 17:45:57] The value of Progress is 90
+[Debug] [2024-6-14 17:45:57] The value of Progress is 95
+[Debug] [2024-6-14 17:45:58] The value of Progress is 100
+[Debug] [2024-6-14 17:45:58] COMMAND[Program] execute successfully, takes 11.2 secs.
+[Debug] [2024-6-14 17:45:58] End to send programming cmd.
+[Debug] [2024-6-14 17:45:58] Log::Print : [2024.06.14 17:45:58]Finish program G:/Current_Pango/TenGigTest/generate_bitstream/Main.sbit
+[Debug] [2024-6-14 17:45:58] Log::Print : The done bit is 1
+[Debug] [2024-6-14 17:45:58] Log::Print : COMMAND[Program] execute successfully, takes 11.2 secs.
+[Info] [2024-6-17 10:21:34] /***************************End Configration***************************/

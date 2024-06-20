@@ -1,0 +1,37 @@
+##### Written on 2024/06/14 17:43:02 ################################################
+
+##### INFO ##########################################################################
+
+Current Device:
+    PG2T390H-6FFBG900
+
+Top Module:
+    Main
+
+Constraint File(s):
+    G:/Current_Pango/TenGigTest/source/ConstrainMain.fdc
+
+##### SUMMARY #######################################################################
+
+Found 0 error(s), 1 critical warning(s), 4 warning(s), out of 74 constraint(s)
+
+Constraints With Issues(infos):
+********************************************
+
+define_attribute {p:rxd} {PAP_IO_LOC} {P21}
+    W: ConstraintEditor-4040: [G:/Current_Pango/TenGigTest/source/ConstrainMain.fdc(line number: 131)] Port p:rxd has been placed at location P21, whose type is share pin.
+
+define_attribute {p:sfp_1_loss} {PAP_IO_LOC} {V29}
+    W: ConstraintEditor-4040: [G:/Current_Pango/TenGigTest/source/ConstrainMain.fdc(line number: 108)] Port p:sfp_1_loss has been placed at location V29, whose type is share pin.
+
+define_attribute {p:sfp_1_tx_dis} {PAP_IO_LOC} {V19}
+    W: ConstraintEditor-4040: [G:/Current_Pango/TenGigTest/source/ConstrainMain.fdc(line number: 54)] Port p:sfp_1_tx_dis has been placed at location V19, whose type is share pin.
+
+define_attribute {p:txd} {PAP_IO_LOC} {P22}
+    W: ConstraintEditor-4040: [G:/Current_Pango/TenGigTest/source/ConstrainMain.fdc(line number: 125)] Port p:txd has been placed at location P22, whose type is share pin.
+
+Other Issues(infos):
+********************************************
+
+    C: ConstraintEditor-2012: The U_HSSTHP_COMMON of HSSTHP_664_918 have a top priority when you constraints HSSTHP. Please check your constraint file.
+

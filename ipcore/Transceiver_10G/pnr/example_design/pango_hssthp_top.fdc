@@ -1,0 +1,69 @@
+###==== BEGIN Clocks 
+create_clock -name {free_clk} [get_ports {i_free_clk}] -period {10} -waveform {0.000 5.000}
+create_clock -name {cfg_clk} [get_ports {i_p_cfg_clk}] -period {10} -waveform {0.000 5.000}
+create_clock -name {p_clk2core_tx_0} [get_pins {U_INST.o_p_clk2core_tx_0}] -period {6.4} -waveform {0 3.2} 
+create_clock -name {p_clk2core_rx_0} [get_pins {U_INST.o_p_clk2core_rx_0}] -period {6.4} -waveform {0 3.2} 
+###==== END Clocks
+###==== BEGIN "set_clock_groups"
+set_clock_groups -name free_clk        -asynchronous -group [get_clocks {free_clk}]
+set_clock_groups -name cfg_clk        -asynchronous -group [get_clocks {cfg_clk}]
+set_clock_groups -name p_clk2core_tx_0 -asynchronous -group [get_clocks {p_clk2core_tx_0}]
+set_clock_groups -name p_clk2core_rx_0 -asynchronous -group [get_clocks {p_clk2core_rx_0}]
+###==== END "set_clock_groups"
+###==== BEGIN "Inputs/Outpusts"
+###==== END "Inputs/Outpusts"
+###==== BEGIN "Delay Paths"
+###==== END "Delay Paths"
+###==== BEGIN Attributes - (Populated from tab in SCOPE, do not edit)
+### The HSSTHP Location Constraint
+#HSSTHP Calibration Location only
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.U_CALIB_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_918:U_HSSTHP_COMMON}
+#HSSTHP_1
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL0_ENABLE.U_LANE0_WRAP.U_LANE0} {PAP_LOC} {HSSTHP_664_1836:U0_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.HPLL_ENABLE.U_HPLL_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_1836:U_HSSTHP_COMMON}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL1_ENABLE.U_LANE1_WRAP.U_LANE1} {PAP_LOC} {HSSTHP_664_1836:U1_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL2_ENABLE.U_LANE2_WRAP.U_LANE2} {PAP_LOC} {HSSTHP_664_1836:U2_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL3_ENABLE.U_LANE3_WRAP.U_LANE3} {PAP_LOC} {HSSTHP_664_1836:U3_HSSTHP_LANE}
+#HSSTHP_2
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL0_ENABLE.U_LANE0_WRAP.U_LANE0} {PAP_LOC} {HSSTHP_664_1530:U0_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.HPLL_ENABLE.U_HPLL_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_1530:U_HSSTHP_COMMON}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL1_ENABLE.U_LANE1_WRAP.U_LANE1} {PAP_LOC} {HSSTHP_664_1530:U1_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL2_ENABLE.U_LANE2_WRAP.U_LANE2} {PAP_LOC} {HSSTHP_664_1530:U2_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL3_ENABLE.U_LANE3_WRAP.U_LANE3} {PAP_LOC} {HSSTHP_664_1530:U3_HSSTHP_LANE}
+#HSSTHP_3
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL0_ENABLE.U_LANE0_WRAP.U_LANE0} {PAP_LOC} {HSSTHP_664_1224:U0_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.HPLL_ENABLE.U_HPLL_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_1224:U_HSSTHP_COMMON}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL1_ENABLE.U_LANE1_WRAP.U_LANE1} {PAP_LOC} {HSSTHP_664_1224:U1_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL2_ENABLE.U_LANE2_WRAP.U_LANE2} {PAP_LOC} {HSSTHP_664_1224:U2_HSSTHP_LANE}
+#define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL3_ENABLE.U_LANE3_WRAP.U_LANE3} {PAP_LOC} {HSSTHP_664_1224:U3_HSSTHP_LANE}
+#HSSTHP_4 defualt instance quad 4
+define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.CHANNEL0_ENABLE.U_LANE0_WRAP.U_LANE0} {PAP_LOC} {HSSTHP_664_918:U0_HSSTHP_LANE}
+define_attribute {i:U_INST.U_GTP_HSSTHP_WRAPPER.HPLL_ENABLE.U_HPLL_WRAP.U_HPLL} {PAP_LOC} {HSSTHP_664_918:U_HSSTHP_COMMON}
+###==== END Attributes
+define_attribute {p:i_free_clk} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+define_attribute {t:U_INST.o_p_clk2core_tx_0} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+define_attribute {t:U_INST.o_p_clk2core_rx_0} {PAP_CLOCK_ASSIGN} {GTP_CLKBUFG}
+###==== BEGIN Attributes - (Populated from tab in SCOPE, do not edit)
+###==== END Attributes
+###==== BEGIN Attributes - IO table (Populated from tab in SCOPE, do not edit)
+####==== END Attributes(IO table)
+#HSSTHP_1 REFCLK PAD
+#define_attribute {p:i_p_refckp_0} {PAP_IO_LOC} {C8}
+#define_attribute {p:i_p_refckn_0} {PAP_IO_LOC} {C7}
+#define_attribute {p:i_p_refckp_1} {PAP_IO_LOC} {E8}
+#define_attribute {p:i_p_refckn_1} {PAP_IO_LOC} {E7}
+#HSSTHP_2 REFCLK PAD
+#define_attribute {p:i_p_refckp_0} {PAP_IO_LOC} {G8}
+#define_attribute {p:i_p_refckn_0} {PAP_IO_LOC} {G7}
+#define_attribute {p:i_p_refckp_1} {PAP_IO_LOC} {J8}
+#define_attribute {p:i_p_refckn_1} {PAP_IO_LOC} {J7}
+#HSSTHP_3 REFCLK PAD
+#define_attribute {p:i_p_refckp_0} {PAP_IO_LOC} {L8}
+#define_attribute {p:i_p_refckn_0} {PAP_IO_LOC} {L7}
+#define_attribute {p:i_p_refckp_1} {PAP_IO_LOC} {N8}
+#define_attribute {p:i_p_refckn_1} {PAP_IO_LOC} {N7}
+#HSSTHP_4  REFCLK PAD default instance quad 4
+define_attribute {p:i_p_refckp_0} {PAP_IO_LOC} {R8}
+define_attribute {p:i_p_refckn_0} {PAP_IO_LOC} {R7}
+#define_attribute {p:i_p_refckp_1} {PAP_IO_LOC} {U8}
+#define_attribute {p:i_p_refckn_1} {PAP_IO_LOC} {U7}

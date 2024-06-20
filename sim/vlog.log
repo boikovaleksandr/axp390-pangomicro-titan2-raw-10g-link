@@ -1,0 +1,50 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 17:34:27 on Jun 14,2024
+vlog -f G:/Current_Pango/TenGigTest/sim/5 
+-- Compiling module GTP_HSSTHP_LANE
+-- Compiling module GTP_HSSTHP_HPLL
+-- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+-- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+-- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+-- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+-- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+-- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+-- Compiling module ipm2t_hssthp_rst_sync_v1_0
+-- Compiling module ipm2t_hssthp_rst_tx_v1_5
+-- Compiling module ipm2t_hssthp_rst_v1_8a
+-- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+-- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+-- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+-- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+-- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+-- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+-- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+-- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+-- Compiling module Transceiver_10G
+-- Compiling module FIFO_CORE
+-- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+-- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+-- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+-- Compiling module fifo_512x44
+-- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+-- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+-- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+-- Compiling module tx_ram_0
+-- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+-- Compiling module ram_data_sta
+-- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+-- Compiling module ram_data_sta_mirror
+-- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+-- Compiling module tb_xge_mac
+-- Compiling module reg_union_bridge_top
+-- Compiling module Link10G
+-- Compiling module MAC_Link
+-- Compiling module Main
+-- Compiling module prbs_any
+-- Compiling module packet_gen
+
+Top level modules:
+	tb_xge_mac
+	Main
+End time: 17:34:38 on Jun 14,2024, Elapsed time: 0:00:11
+Errors: 0, Warnings: 0

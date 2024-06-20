@@ -1,0 +1,1809 @@
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:12:58 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Error (suppressible): ../source/Link10G.sv(290): (vopt-3053) Illegal output port connection for 'rx_data_slip' (36th connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./xge_mac_top_sim.do PAUSED at line 18
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# Ԁ䍣霊Ġ耀က$ԁ
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:21 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:13:21 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:21 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:13:21 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:21 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:13:21 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:21 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:13:22 on Jun 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:22 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:13:22 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:22 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:13:22 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:13:22 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:13:33 on Jun 14,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:12:58 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 53, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=51.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'i_txh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(61).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'o_rxh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(66).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 6.400000
+# rx_period is 0.200000
+# rx_period is 0.200000
+# rx_period is 0.200000
+# rx_period is 0.200000
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# r뙍㏪ᕥ耀l\v1.0\;C:\W뙏㏴ᙤ耀ws\System32\뙉㏶ᝥ耀SSH\;C:\Prog뙋㏰ᡭ耀Files\NVIDIA뙅㏲᥯耀poration\NVI뙇㏼ᩁ耀NvDLISR;C:\P뙁㏾᭧耀am Files\Git뙃㏸ᱭ耀;C:\Program 뙽㏺ᵬ耀s\Microsoft 뙿㎄Ṍ耀Server\Clien뙹㎆ὓ耀K\ODBC\170\T뙻㎀⁬耀\Binn\;C:\Pr뙵㎂ⅲ耀m Files (x86뙷㎌≍耀crosoft SQL 뙱㎎⍲耀er\150\Tools뙳㎈⑩耀n\;C:\Progra뙭㎊╆耀les\Microsof뙯㎔♓耀L Server\150뙩㎖❯耀ls\Binn\;C:\뙫㎐⡯耀ram Files\Mi뙥㎒⥯耀oft SQL Serv뙧㎜⩜耀50\DTS\Binn\뙡㎞⬺耀Program File뙣㎘Ⱘ耀86)\Windows 랝㎚⵴耀\8.1\Windows랟㎤⹥耀formance Too랙㎦⽩耀\;C:\Program랛㎠ど耀es (x86)\Win랕㎢ㅷ耀 Kits\10\Win랗㎬㉷耀 Performance랑㎮㍯耀lsasspirpc
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:33 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:18:33 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:33 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:18:33 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:33 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:18:33 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:33 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:18:34 on Jun 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:34 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:18:34 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:34 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:18:34 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:18:34 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:18:45 on Jun 14,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# End time: 17:18:45 on Jun 14,2024, Elapsed time: 0:05:47
+# Errors: 4, Warnings: 62
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:18:45 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 53, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=50.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'i_txh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(61).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'o_rxh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(66).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 6.400000
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# m⃯ߑ⬻耀:\Wi⃮ߐᵯ耀s\sy⃩ߗⱥ耀32;C:\Window⃫ߕⵃ耀\Windows\Sys⃵߫⹭耀2\Wb⃴ߪἻ耀:\Wi⃷ߩ⽯耀s\System32\W⃱߯つ耀wsPowerShell⃳߭ㄱ耀0\;C⃲߬⅗耀ndow⃽ߣ㉓耀stem32\OpenS⃿ߡ㍜耀C:\Program F⃹ߧ㑥耀\NVI⃸ߦ⍁耀Corp⃻ߥ㕡耀ion\NVIDIA N⃅߻㙌耀SR;C:\Progra⃇߹㝆耀les\⃆߸╴耀홈G
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:22:24 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:22:24 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:22:35 on Jun 14,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# End time: 17:22:36 on Jun 14,2024, Elapsed time: 0:03:51
+# Errors: 3, Warnings: 61
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:22:36 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 53, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=50.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'i_txh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(61).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'o_rxh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(66).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 2.000000
+# rx_period is 0.060606
+# rx_period is 0.060606
+# rx_period is 0.060606
+# rx_period is 0.060606
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# hᆢ퍴⹜耀lsasspirpc
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:30:11 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:30:11 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:30:22 on Jun 14,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# End time: 17:30:23 on Jun 14,2024, Elapsed time: 0:07:47
+# Errors: 3, Warnings: 61
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:30:23 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 53, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=50.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'i_txh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(61).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'o_rxh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(66).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 6.400000
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:32:57 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:32:57 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:33:09 on Jun 14,2024, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# End time: 17:33:09 on Jun 14,2024, Elapsed time: 0:02:46
+# Errors: 3, Warnings: 61
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:33:09 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(972): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 60, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_startc_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxhc_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_startc_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxhc_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxhc_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxhc_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'i_txh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=57.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 6.400000
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+do xge_mac_top_sim.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying G:/Current_Pango/TenGigTest/sim/LinkText.mpf
+# ** Error: മ
+# s譩���㍹耀er\resources譫���㑩耀;C:\譬���⍥耀s\bo譭���㕶耀AppData\Loca譯���㙇耀tHubDesktop\譡���㝮耀D:\i譢���╲耀편T
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFG.v 
+# -- Compiling module GTP_CLKBUFG
+# 
+# Top level modules:
+# 	GTP_CLKBUFG
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_CLKBUFX.v 
+# -- Compiling module GTP_CLKBUFX
+# 
+# Top level modules:
+# 	GTP_CLKBUFX
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v 
+# -- Compiling module GTP_DRM36K_E1
+# 
+# Top level modules:
+# 	GTP_DRM36K_E1
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GRS.v 
+# -- Compiling module GTP_GRS
+# 
+# Top level modules:
+# 	GTP_GRS
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_GPLL.v 
+# -- Compiling module GTP_GPLL
+# 
+# Top level modules:
+# 	GTP_GPLL
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -reportprogress 300 D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_HSSTHP_BUFDS.v 
+# -- Compiling module GTP_HSSTHP_BUFDS
+# 
+# Top level modules:
+# 	GTP_HSSTHP_BUFDS
+# End time: 17:34:27 on Jun 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:34:27 on Jun 14,2024
+# vlog -f G:/Current_Pango/TenGigTest/sim/5 
+# -- Compiling module GTP_HSSTHP_LANE
+# -- Compiling module GTP_HSSTHP_HPLL
+# -- Compiling module ipm2t_hssthp_fifo_clr_v1_0
+# -- Compiling module ipm2t_hssthp_hpll_rst_fsm_v1_3
+# -- Compiling module ipm2t_hssthp_rst_debounce_v1_0
+# -- Compiling module ipm2t_hssthp_rst_hpll_v1_3
+# -- Compiling module ipm2t_hssthp_rst_lpll_v1_1
+# -- Compiling module ipm2t_hssthp_rst_rx_v1_5b
+# -- Compiling module ipm2t_hssthp_rst_sync_v1_0
+# -- Compiling module ipm2t_hssthp_rst_tx_v1_5
+# -- Compiling module ipm2t_hssthp_rst_v1_8a
+# -- Compiling module ipm2t_hssthp_rst_wtchdg_v1_0
+# -- Compiling module ipm2t_hssthp_rxlane_rst_fsm_v1_5b
+# -- Compiling module ipm2t_hssthp_txlane_rst_fsm_v1_5
+# -- Compiling module ipm2t_hssthp_apb_bridge_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0
+# -- Compiling module ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5
+# -- Compiling module Transceiver_10G
+# -- Compiling module FIFO_CORE
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_FIFO_CORE
+# -- Compiling module ipm2l_fifo_v1_10_FIFO_CORE
+# -- Compiling module ipm2l_sdpram_v1_10_FIFO_CORE
+# -- Compiling module fifo_512x44
+# -- Compiling module ipm2l_fifo_ctrl_v1_1_fifo_512x44
+# -- Compiling module ipm2l_fifo_v1_10_fifo_512x44
+# -- Compiling module ipm2l_sdpram_v1_10_fifo_512x44
+# -- Compiling module tx_ram_0
+# -- Compiling module ipm_distributed_sdpram_v1_3_tx_ram_0
+# -- Compiling module ram_data_sta
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta
+# -- Compiling module ram_data_sta_mirror
+# -- Compiling module ipm_distributed_sdpram_v1_3_ram_data_sta_mirror
+# -- Compiling module tb_xge_mac
+# -- Compiling module reg_union_bridge_top
+# -- Compiling module Link10G
+# -- Compiling module MAC_Link
+# -- Compiling module Main
+# -- Compiling module prbs_any
+# -- Compiling module packet_gen
+# 
+# Top level modules:
+# 	tb_xge_mac
+# 	Main
+# End time: 17:34:38 on Jun 14,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# ** Error: ����  ���.
+# 
+#        Unable to replace existing ini file (G:/Current_Pango/TenGigTest/sim/LinkText.mpf).  File can not be renamed.
+# End time: 17:34:38 on Jun 14,2024, Elapsed time: 0:01:29
+# Errors: 3, Warnings: 66
+# vsim -voptargs="+acc" tb_xge_mac -l vsim.log 
+# Start time: 17:34:38 on Jun 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../source/Link10G.sv(290): (vopt-2241) Connection width does not match width of port 'prbs_mode'. The port definition is at: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp(59).
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_hpll_source_codes/pma_common_new.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/arch/vendor/pango/verilog/simulation/GTP_DRM36K_E1.v(746): (vopt-2250) Function "mem_read_a" has no return value assignment.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_HSSTHP_WRAPPER'.  Expected 397, found 391.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_3'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_2'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDP_1'.
+# ** Warning: ../ipcore/Transceiver_10G/Transceiver_10G.v(958): (vopt-2718) [TFMPC] - Missing connection for port 'P_RX_SDN_1'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)".
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2685) [TFMPC] - Too few port connections for 'U_HPLL'.  Expected 68, found 40.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'DIV_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'ANA_TX_SYNC_O'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'TX_SYNC_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FOR_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH3'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH2'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'LPLL_REFCKOUT_CH0'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK_FROM_FABRIC'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_LOWER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0_FROM_UPPER_HSST'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK1'.
+# ** Warning: ../ipcore/Transceiver_10G/rtl/ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6.v(503): (vopt-2718) [TFMPC] - Missing connection for port 'REFCLK0'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)".
+# ** Warning: ../source/Link10G.sv(338): (vopt-2685) [TFMPC] - Too few port connections for 'PHY_10G'.  Expected 53, found 45.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxq_start_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_vld_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxh_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_rxd_vld_h_0'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_p_hpll_lock'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_done'.
+# ** Warning: ../source/Link10G.sv(338): (vopt-2718) [TFMPC] - Missing connection for port 'o_hpll_wtchdg_st'.
+# ** Warning: D:/Pango/PDS_2023.2-SP1/ip/module_ip/ipm2t_flex_hssthp/ipm2t_hssthp_eval/ipm2t_hssthp/../../../../../arch/vendor/pango/verilog/simulation/modelsim10.2c/hssthp_lane_source_codes/pma_rx_alg_top.vp(40): (vopt-2958) Implicit wire '<protected>' does not have any driver.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=50.
+# Loading work.tb_xge_mac(fast)
+# Loading sv_std.std
+# Loading work.Link10G(fast)
+# Loading work.reg_union_bridge_top(fast)
+# Loading work.MAC_Link(fast)
+# Loading work.ram_data_sta(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta(fast)
+# Loading work.ram_data_sta_mirror(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_ram_data_sta_mirror(fast)
+# Loading work.tx_ram_0(fast)
+# Loading work.ipm_distributed_sdpram_v1_3_tx_ram_0(fast)
+# Loading work.FIFO_CORE(fast)
+# Loading work.ipm2l_fifo_v1_10_FIFO_CORE(fast)
+# Loading work.ipm2l_sdpram_v1_10_FIFO_CORE(fast)
+# Loading work.GTP_DRM36K_E1(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_FIFO_CORE(fast)
+# Loading work.fifo_512x44(fast)
+# Loading work.ipm2l_fifo_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_sdpram_v1_10_fifo_512x44(fast)
+# Loading work.ipm2l_fifo_ctrl_v1_1_fifo_512x44(fast)
+# Loading work.Transceiver_10G(fast)
+# Loading work.ipm2t_hssthp_rst_v1_8a(fast)
+# Loading work.ipm2t_hssthp_rst_hpll_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_sync_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast)
+# Loading work.ipm2t_hssthp_rst_wtchdg_v1_0(fast)
+# Loading work.ipm2t_hssthp_hpll_rst_fsm_v1_3(fast)
+# Loading work.ipm2t_hssthp_rst_lpll_v1_1(fast)
+# Loading work.ipm2t_hssthp_rst_tx_v1_5(fast)
+# Loading work.ipm2t_hssthp_txlane_rst_fsm_v1_5(fast)
+# Loading work.ipm2t_hssthp_rst_rx_v1_5b(fast)
+# Loading work.ipm2t_hssthp_rst_debounce_v1_0(fast__1)
+# Loading work.ipm2t_hssthp_rxlane_rst_fsm_v1_5b(fast)
+# Loading work.ipm2t_hssthp_fifo_clr_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_wrapper_v1_8a(fast)
+# Loading work.ipm2t_hssthp_apb_bridge_v1_0(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_bufds_wrapper_v1_0(fast)
+# Loading work.GTP_HSSTHP_BUFDS(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_hpll_wrapper_v1_6(fast)
+# Loading work.GTP_HSSTHP_HPLL(fast)
+# Loading work.ipm2t_hssthp_Transceiver_10G_lane0_wrapper_v1_5(fast)
+# Loading work.GTP_HSSTHP_LANE(fast)
+# Loading work.GTP_CLKBUFG(fast)
+# Loading work.GTP_CLKBUFX(fast)
+# Loading work.packet_gen(fast)
+# Loading work.prbs_any(fast)
+# Loading work.prbs_any(fast__1)
+# Loading work.GTP_GRS(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (1) for port 'apb_paddr'. The port definition is at: ../source/Link10G.sv(12).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_pwdata'. The port definition is at: ../source/Link10G.sv(16).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'apb_prdata'. The port definition is at: ../source/Link10G.sv(18).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain File: ../bench/tb_xge_mac.v Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'prbs_mode'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PCS_10G File: ../source/Link10G.sv Line: 290
+# ** Warning: (vsim-3015) [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /tb_xge_mac/LinkMain/PCS_10G/<protected>/<protected> File: ../bench/pcs_src_sim_encrypt/pcs_core_v1_vpAll.vp Line: 858
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_loop_dbg_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(25).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'i_p_cfg_wdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(50).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'o_p_cfg_rdata'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(51).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'i_txh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(61).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'o_rxh_0'. The port definition is at: ../ipcore/Transceiver_10G/Transceiver_10G.v(66).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_xge_mac/LinkMain/PHY_10G File: ../source/Link10G.sv Line: 338
+# refclk_period is 6.400000
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+# rx_period is 0.193940
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914531200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914537600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914544 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914550400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914556800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914563200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914569600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914576 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914582400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914588800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914595200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914601600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914608 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914614400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914620800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914627200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914633600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914640 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914646400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914652800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914659200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914665600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914672 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914678400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914684800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914691200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914697600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914704 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914710400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914716800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914723200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914729600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914736 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914742400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914748800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914755200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914761600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914768 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914774400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914780800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914787200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914793600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914800 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914806400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914812800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914819200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914825600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914832 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914838400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914844800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914851200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914857600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914864 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914870400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914876800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914883200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914889600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914896 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914902400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914908800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914915200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914921600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914928 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./rx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(282)
+#    Time: 569914934400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914940800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914947200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914953600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914960 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914966400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914972800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914979200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914985600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914992 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569914998400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915004800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915011200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915017600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915024 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915030400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915036800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915043200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915049600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915056 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915062400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915068800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915075200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915081600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915088 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915094400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915100800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915107200 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915113600 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915120 ns  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915126400 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915132800 ps  Iteration: 2  Instance: /tb_xge_mac
+# ** Warning: (vsim-3535) [FOFIA] - Failed to open file "./tx_data.txt" for appending.
+# Permission denied. (errno = EACCES)    : ../bench/tb_xge_mac.v(272)
+#    Time: 569915139200 ps  Iteration: 2  Instance: /tb_xge_mac
