@@ -1,1 +1,1 @@
-# G-Current_Pango-axp390-titan2-raw-10g-link
+Simple exmaple 10g link for Titan 2 FPGA. For AXP390 dev board
